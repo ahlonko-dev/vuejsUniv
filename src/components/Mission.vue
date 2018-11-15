@@ -1,6 +1,7 @@
 <template>
 <section>
-  <header>
+ <div class="contenu-mission Mission">
+    <header>
 
     <!-- <div class="mission compteur">
 
@@ -131,10 +132,14 @@
   <!-- boutton ajout-->
   <div class="add-button">
     <a href="javascript:void(0)">+
-            <img src="img/plus-icon.png" alt="plus icon" class="new-mission">  
+           
+            <a href="/Formulaire"><router-link to="/Formulaire"><img src="img/plus-icon.png" alt="Ajout Mission" class="new-mission"></router-link>
         </a>
+        </a>
+
     <!-- v-model="newMission" @click="addMission" avec la function addMiision mis en commentaire, on sait ajouter une mission    -->
-  </div>
+  </div><!--end contenu mission -->
+ </div>
 
 </section>
 </template>

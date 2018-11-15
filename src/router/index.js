@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import HelloWorld from '@/components/HelloWorld'
+import Formulaire from '@/components/Formulaire'
 import Mission from '@/components/Mission'
 import Option from '@/components/Option'
 import PageProfil from '@/components/PageProfil'
@@ -17,8 +17,8 @@ export default new Router({
     },
 
     {
-      path: '/HelloWorld',
-      component: HelloWorld
+      path: '/Formulaire',
+      component: Formulaire
     }, {
       path: '/Option',
       component: Option

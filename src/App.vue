@@ -1,10 +1,15 @@
 <template>
 <section>
   <div class="contenu-app">
-    <router-view />
+   <div class="contenu-header-main">
+
+    
+   </div>
+<router-view/>
+
 
     <footer class="footer">
-      
+
       <div class="menu-nav">
         <div class="row">
 
@@ -12,8 +17,7 @@
             <ul>
               <li>
                 <a href="/Mission">
-                <i class="fas fa-list-ul active"></i>
-              <router-link to="/Mission">PageClient</router-link> </a>
+                <i class="fas fa-list-ul active"></i><router-link to="/Mission">PageClient</router-link> </a>
               </li>
             </ul>
           </div>
@@ -36,13 +40,15 @@
       </div><!-- /Nav tabs-->
     </footer>
   </div>
+
+
+   
+
 </section>
 </template>
 
 <script>
-export default {
-  name: "App"
-};
+export default {};
 </script>
 
 <style>
